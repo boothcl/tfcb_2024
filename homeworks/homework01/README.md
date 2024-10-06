@@ -8,7 +8,7 @@ This homework will assess your ability to use GitHub, organize projects, and app
 
 Make a GitHub account and populate your bio by including your research interests, place of work, location, professional webpage (or science-focused twitter account!). Here's an example [github.com/trvrb](https://github.com/trvrb/).
 
-_Include the link to your GitHub profile here._
+[@boothcl](https://github.com/boothcl)
 
 ## Problem 2
 
@@ -18,7 +18,7 @@ This question assesses your ability to track a project using Git.
 
 Download the course files with the following link: [github.com/FredHutch/tfcb_2024/archive/refs/heads/main.zip](https://github.com/FredHutch/tfcb_2023/archive/refs/heads/main.zip). Copy the contents of `homeworks/homework01/messy-project-directory/` to a new directory on your computer named `tfcb-homework01`.
 
-Open the above `tfcb-homework01` in VSCode and "Initialize Repository" in the Source Control Tab. 
+Open the above `tfcb-homework01` in VSCode and "Initialize Repository" in the Source Control Tab.
 
 Create an initial commit that adds all the local files in `tfcb-homework01`:
 - `Survey Data.xlsx`
@@ -35,12 +35,12 @@ This question assesses your ability to publish projects to GitHub.
 
 Create a new repository on GitHub called `tfcb-homework01`.
 Make sure to set this to be a "public" repository.
-The resulting repository can now be accessed at `github.com/{your_username}/tfcb-homework01`. 
+The resulting repository can now be accessed at `github.com/{your_username}/tfcb-homework01`.
 If necessary, you can make this repository public by going to "Settings" from this page.
 
 Push the local `tfcb-homework01` to GitHub.
 Do this by picking `Push` from the `...` icon in the Source Control Tab of VSCode.
-The first time you try doing this, you will get an error asking you to configure your "Remote". 
+The first time you try doing this, you will get an error asking you to configure your "Remote".
 Use the URL of the GitHub repository you created above to configure the Remote.
 Now you should be able to push any further changes to your repository.
 
