@@ -44,7 +44,7 @@ The first time you try doing this, you will get an error asking you to configure
 Use the URL of the GitHub repository you created above to configure the Remote.
 Now you should be able to push any further changes to your repository.
 
-Github repository: [tfcb-homework01](https://github.com/boothcl/tfcb-homework01)
+GitHub repository: [tfcb-homework01](https://github.com/boothcl/tfcb-homework01)
 
 ## Problem 4
 
@@ -54,7 +54,7 @@ This question assesses your ability to organize files and directories associated
 
 Organize files into a more consistent structure. Group images into a `images/` directory. Separate source code and data. Rename files to remove spaces and improve consistency. Commit changes and publish to your public GitHub repository.
 
-_Include the link to your `tfcb-homework01` GitHub repository here._
+GitHub repository: [tfcb-homework01](https://github.com/boothcl/tfcb-homework01)
 
 ## Problem 5
 
