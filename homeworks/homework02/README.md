@@ -55,8 +55,6 @@ vader.txt<br>
 _Paste your SCRIPT here (not the output)_
 
 ```
-#!/bin/sh
-
 echo "My username is" $USER > question01.txt
 echo "My home directory is" `pwd` >> question01.txt
 echo "The contents of the tfcb_2024/lectures/lecture04/ directory are" >> question01.txt
