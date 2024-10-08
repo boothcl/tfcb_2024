@@ -20,7 +20,7 @@ _Did you hit any points of frustration, and if so, how could we improve the mate
 
 **Write a script that outputs some user and location data and moves that output to a newly created directory**
 
-Make a single script that prints out a file called question01.txt. 
+Make a single script that prints out a file called question01.txt.
 
 This file should contain the following text:
 
@@ -54,6 +54,16 @@ vader.txt<br>
 
 _Paste your SCRIPT here (not the output)_
 
+```
+#!/bin/sh
+
+echo "My username is" $USER > question01.txt
+echo "My home directory is" `pwd` >> question01.txt
+echo "The contents of the tfcb_2024/lectures/lecture04/ directory are" >> question01.txt
+ls /workspaces/tfcb_2024-copy/lectures/lecture04/ >> question01.txt
+mkdir -p homework02
+mv question01.txt homework02
+```
 
 ## Problem 2
 
@@ -77,4 +87,9 @@ You can make the contents of those files whatever you want (hint: slide 9... )
 
 _Paste your SCRIPT here (not the output)_
 
-
+```
+mkdir -p homework02/question02
+for i in `cat list.txt`
+do echo $i > homework02/question02/file$i.txt
+done
+```
