@@ -87,6 +87,8 @@ You can make the contents of those files whatever you want (hint: slide 9... )
 _Paste your SCRIPT here (not the output)_
 
 ```
+#!/bin/bash
+
 mkdir -p homework02/question02
 for i in `cat list.txt`
 do echo $i > homework02/question02/file$i.txt

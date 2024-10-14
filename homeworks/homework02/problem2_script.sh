@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 mkdir -p homework02/question02
 for i in `cat list.txt`
