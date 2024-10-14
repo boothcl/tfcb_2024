@@ -11,8 +11,7 @@ Replace the lines specified in _italics_ with your answers and save as a text fi
 
 Complete the interactive tutorial.
 
-_Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?_
-
+I did not have any major points of frustration. It went pretty smoothly! One small thing that tripped me up at the beginning was that the man command does not work in vscode. I wasn't sure if I was doing something wrong at first, so maybe noting that in the tutorial would be useful.
 
 ## Problem 1
 
@@ -55,8 +54,10 @@ vader.txt<br>
 _Paste your SCRIPT here (not the output)_
 
 ```
+#!/bin/bash
+
 echo "My username is" $USER > question01.txt
-echo "My home directory is" `pwd` >> question01.txt
+echo "My home directory is" $HOME >> question01.txt
 echo "The contents of the tfcb_2024/lectures/lecture04/ directory are" >> question01.txt
 ls /workspaces/tfcb_2024-copy/lectures/lecture04/ >> question01.txt
 mkdir -p homework02
